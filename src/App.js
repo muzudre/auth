@@ -8,12 +8,7 @@ export default class App extends Component {
 
   componentWillMount() {
     firebase.initializeApp({
-      apiKey: "AIzaSyCNRou-mUZA3IhdLmxsE2vN4nuTJVspv9g",
-      authDomain: "auth-c24b5.firebaseapp.com",
-      databaseURL: "https://auth-c24b5.firebaseio.com",
-      projectId: "auth-c24b5",
-      storageBucket: "auth-c24b5.appspot.com",
-      messagingSenderId: "585351438540"
+      // firebase conf
     })
 
     firebase.auth().onAuthStateChanged((user) => {
