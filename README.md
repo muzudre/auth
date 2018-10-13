@@ -1,2 +1,2 @@
 # auth
-React Native Auth
+React Native Authentication with firebase
